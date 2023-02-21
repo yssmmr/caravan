@@ -37,7 +37,7 @@
 
 .main {
   width: 840px; /* 横幅840px */
-  /*background-bolor,heightの指定を解除*/
+  /*background-color,heightの指定を解除*/
   display: flex; /* Flexboxの利用 */
   justify-content: center; /* 子要素の横並び・中央寄せ*/
   margin: 0 auto; /* 中央寄席せ（左右に余白がないとできない）*/
