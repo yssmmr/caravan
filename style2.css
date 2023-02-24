@@ -36,6 +36,8 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす*/
 }
 
 .main-visual-content {
