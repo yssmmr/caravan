@@ -34,7 +34,8 @@ header {
 }
 
 
-header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+header .heading {
+  /* headerタグ内のheadingクラスにのみ反映される */
   font-size: 32px;
 }
 
@@ -191,7 +192,7 @@ main {
 }
 
 .instagram-box:nth-child(odd) {
-  margin: 0 10px 10px 0;
+  margin-right: 10px;
 }
 
 .instagram-box:nth-child(1) {
@@ -228,4 +229,78 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+
+@media screen and (max-width: 425px) {
+ header {
+    width: 100%;
+  }
+
+
+ .social {
+  display: none;
+ }
+
+
+ .nav-list {
+  width: 100%;
+ }
+
+
+ .nav-list-item {
+  width: 100%;
+  margin: 0 0 10px 0;
+ }
+
+ .main-visual-content {
+  width: 100%;
+ }
+
+ main {
+  width: 100%;
+  display: block;
+ }
+
+ .blog {
+ width: 100%;
+ margin: 0;
+ }
+
+ .blog-box {
+  padding-left: 2%;
+  padding-right: 2%;
+ }
+
+ .blog-image {
+  width: 49%;
+ }
+
+ .blog-text {
+  width: 49%;
+  padding-top: 5px;
+ }
+
+ .sidebar {
+  width: 100%;
+ }
+
+ .sidebar-contents {
+  padding-left: 3%;
+  padding-right: 3%;
+ }
+
+ .instagram-box {
+  width: 48%;
+  padding-top: 48%;
+ }
+
+ .instagram-box:nth-child(odd) {
+  margin-right: 4%;
+ }
+
+.pegination {
+  margin-bottom: 50px;
+ }
+
 }
